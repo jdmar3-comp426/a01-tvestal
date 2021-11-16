@@ -1,0 +1,51 @@
+body{
+    background-color: #000000;
+}
+
+p{
+    color: white;
+    font-size: 300%;
+    text-align: center;
+}
+
+a.first_hl{
+    background-color: red;
+    color: black;
+}
+
+a.second_hl{
+    background-color: green;
+    color: black;
+}
+
+a.third_hl{
+    background-color: rgb(19, 160, 207);
+    color: black;
+}
+
+#hoverfirst:hover{
+    color: yellow;
+    font-family: cursive;
+}
+
+#secondborder{
+    border: 4px ridge blue;
+}
+
+div div p{
+    color: chocolate;
+    background-color: grey;
+}
+
+p.shrink{
+    background-color: black;
+    color: black;
+}
+
+p.shrink:hover{
+    background-color: orange;
+    width: 30%;
+    margin: auto;
+    height: 200%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
